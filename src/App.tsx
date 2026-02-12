@@ -7,7 +7,7 @@ import { CallToAction } from './components/CallToAction';
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-emerald-900">
+    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-cyan-50 to-teal-50">
       <Hero />
       <Features />
       <CoreCapabilities />

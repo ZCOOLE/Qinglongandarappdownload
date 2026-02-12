@@ -4,11 +4,11 @@ import { Sparkles, Mic, Brain, Zap } from 'lucide-react';
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden px-4 md:px-6 py-12 md:py-20">
+    <section className="relative overflow-hidden px-4 md:px-6 py-12 md:py-20 bg-gradient-to-br from-emerald-400 via-teal-500 to-cyan-500 rounded-b-[3rem]">
       {/* Background decoration */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-emerald-500/20 rounded-full blur-3xl"></div>
-        <div className="absolute top-60 -left-40 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/20 rounded-full blur-3xl"></div>
+        <div className="absolute top-60 -left-40 w-96 h-96 bg-emerald-600/20 rounded-full blur-3xl"></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto">

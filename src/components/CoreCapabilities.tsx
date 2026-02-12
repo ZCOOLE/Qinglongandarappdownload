@@ -29,11 +29,11 @@ export function CoreCapabilities() {
     <section className="relative px-4 md:px-6 py-12 md:py-20">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12 md:mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 rounded-full mb-6">
-            <Target className="w-4 h-4 text-emerald-400" />
-            <span className="text-xs md:text-sm text-emerald-300">核心目标</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-100 border border-emerald-200 rounded-full mb-6">
+            <Target className="w-4 h-4 text-emerald-600" />
+            <span className="text-xs md:text-sm text-emerald-700">核心目标</span>
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 px-4">
+          <h2 className="text-3xl md:text-5xl font-bold text-slate-800 mb-4 px-4">
             打造智能化店铺服务体系
           </h2>
         </div>
@@ -42,7 +42,7 @@ export function CoreCapabilities() {
           {goals.map((goal, index) => (
             <div
               key={index}
-              className="group p-6 md:p-8 bg-gradient-to-r from-white/5 to-white/10 backdrop-blur-sm border border-white/10 rounded-2xl hover:border-emerald-500/30 transition-all duration-300"
+              className="group p-6 md:p-8 bg-white/80 backdrop-blur-sm border border-emerald-100 rounded-2xl hover:border-emerald-300 hover:shadow-lg transition-all duration-300"
             >
               <div className="flex flex-col md:flex-row gap-4 md:gap-6">
                 {/* Number Badge */}
@@ -55,10 +55,10 @@ export function CoreCapabilities() {
                 {/* Content */}
                 <div className="flex-1 space-y-3 md:space-y-4">
                   <div>
-                    <h3 className="text-xl md:text-2xl font-semibold text-white mb-2">
+                    <h3 className="text-xl md:text-2xl font-semibold text-slate-800 mb-2">
                       {goal.title}
                     </h3>
-                    <p className="text-sm md:text-base text-slate-400 leading-relaxed">
+                    <p className="text-sm md:text-base text-slate-600 leading-relaxed">
                       {goal.description}
                     </p>
                   </div>
@@ -68,10 +68,10 @@ export function CoreCapabilities() {
                     {goal.highlights.map((highlight, hIndex) => (
                       <div
                         key={hIndex}
-                        className="flex items-center gap-2 px-3 md:px-4 py-2 bg-white/5 border border-white/10 rounded-lg"
+                        className="flex items-center gap-2 px-3 md:px-4 py-2 bg-emerald-50 border border-emerald-200 rounded-lg"
                       >
-                        <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-                        <span className="text-xs md:text-sm text-slate-300">{highlight}</span>
+                        <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0" />
+                        <span className="text-xs md:text-sm text-slate-700">{highlight}</span>
                       </div>
                     ))}
                   </div>

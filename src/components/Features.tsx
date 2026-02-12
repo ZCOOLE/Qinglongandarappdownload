@@ -45,10 +45,10 @@ export function Features() {
     <section className="relative px-4 md:px-6 py-12 md:py-20">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="text-3xl md:text-5xl font-bold text-slate-800 mb-4">
             核心特性
           </h2>
-          <p className="text-base md:text-xl text-slate-400 px-4">
+          <p className="text-base md:text-xl text-slate-600 px-4">
             为线下商铺打造的智能服务解决方案
           </p>
         </div>
@@ -57,7 +57,7 @@ export function Features() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="group relative p-6 md:p-8 bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl hover:bg-white/10 transition-all duration-300 hover:scale-105"
+              className="group relative p-6 md:p-8 bg-white/80 backdrop-blur-sm border border-emerald-100 rounded-2xl hover:bg-white transition-all duration-300 hover:scale-105 hover:shadow-lg"
             >
               {/* Icon */}
               <div className={`inline-flex p-3 bg-gradient-to-br ${feature.color} rounded-xl mb-4 shadow-lg`}>
@@ -65,10 +65,10 @@ export function Features() {
               </div>
 
               {/* Content */}
-              <h3 className="text-lg md:text-xl font-semibold text-white mb-3">
+              <h3 className="text-lg md:text-xl font-semibold text-slate-800 mb-3">
                 {feature.title}
               </h3>
-              <p className="text-sm md:text-base text-slate-400 leading-relaxed">
+              <p className="text-sm md:text-base text-slate-600 leading-relaxed">
                 {feature.description}
               </p>
 
